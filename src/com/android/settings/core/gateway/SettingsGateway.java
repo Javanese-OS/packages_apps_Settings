@@ -161,9 +161,9 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.magnus.settings.MagnusSettings;
-import com.magnus.settings.fragments.misc.GamingMode;
-import com.magnus.settings.fragments.OmniJawsSettings;
+import com.javanese.settings.JavaneseSettings;
+import com.javanese.settings.fragments.misc.GamingMode;
+import com.javanese.settings.fragments.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -314,7 +314,7 @@ public class SettingsGateway {
             InteractAcrossProfilesSettings.class.getName(),
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
-            MagnusSettings.class.getName(),
+            javaneseSettings.class.getName(),
             GamingMode.class.getName(),
 	    OmniJawsSettings.class.getName()
     };
@@ -356,7 +356,7 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
-            Settings.MagnusSettingsActivity.class.getName(),
+            Settings.JavaneseSettingsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName()
     };
