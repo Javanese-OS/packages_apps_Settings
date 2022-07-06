@@ -17,7 +17,7 @@
     *;
 }
 
--keep class com.magnus.settings.**
+-keep class com.javanese.settings.**
 
 # We want to keep methods in Activity that could be used in the XML attribute onClick.
 -keepclassmembers class * extends android.app.Activity {
