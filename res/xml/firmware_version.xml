@@ -22,8 +22,8 @@
     settings:keywords="@string/keywords_android_version">
 
 <PreferenceScreen
-    android:layout="@layout/magnus_logo"
-    android:key="magnus_logo" />
+    android:layout="@layout/javanese_logo"
+    android:key="javanese_logo" />
 
     <!-- Android version -->
     <Preference
@@ -34,10 +34,10 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Lineage version -->
+    <!-- Javanese version -->
     <Preference
-        android:key="lineage_version"
-        android:title="@string/magnus_version"
+        android:key="javanese_version"
+        android:title="@string/javanese_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
@@ -50,13 +50,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
-    <!-- Magnus maintainer -->
+    <!-- Javanese maintainer -->
     <Preference
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.MagnusMaintainerPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.JavaneseMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
