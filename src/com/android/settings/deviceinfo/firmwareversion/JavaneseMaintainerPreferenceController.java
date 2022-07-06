@@ -25,12 +25,12 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class MagnusMaintainerPreferenceController extends BasePreferenceController {
+public class JavaneseMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "MagnusMaintainerPreferenceController";
-    private static final String ROM_PROPERTY = "ro.magnus.maintainer";
+    private static final String TAG = "JavaneseMaintainerPreferenceController";
+    private static final String ROM_PROPERTY = "ro.javanese.maintainer";
 
-    public MagnusMaintainerPreferenceController(Context context, String key) {
+    public JavaneseMaintainerPreferenceController(Context context, String key) {
         super(context, key);
     }
 
