@@ -31,10 +31,10 @@ android_library {
            "MagnusSettings/src/**/*.java",
     ],
 
-    aaptflags: ["--extra-packages com.magnus.settings"],
+    aaptflags: ["--extra-packages com.javanese.settings"],
 
     resource_dirs: ["res",
-                    "MagnusSettings/res"
+                    "JavaneseSettings/res"
     ],
 
     static_libs: [
