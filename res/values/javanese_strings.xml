@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Javanese version -->
-    <string name="magnus_version">Javanese Version</string>
+    <string name="javanese_version">Javanese Version</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
